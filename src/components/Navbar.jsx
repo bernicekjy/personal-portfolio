@@ -27,7 +27,7 @@ const Navbar = () => {
           {/* <p className='text-white text-[18px] font-bold cursor-pointer'>Bern <span className='sm:block hidden'>| Javascript</span></p>
          */}
           <p className='text-white text-[18px] font-bold 
-          cursor-pointer flex'>Bernice Koh&nbsp;<span
+          cursor-pointer flex'>Bernice&nbsp;<span
           className='sm:block hidden'>Jun Yan</span></p>
         </Link>
 
