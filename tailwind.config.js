@@ -5,9 +5,11 @@ module.exports = {
   theme: {
     extend: {
       colors: {
-        primary: "#050816",
-        secondary: "#aaa6c3",
-        tertiary: "#151030",
+        primary: "#FBA1B7", //dark pink
+        secondary: "#FFD1DA", // light pink
+        tertiary: "#FFDBAA", // yellow
+        "baby-pink": "#FFF0F5", //light pink
+        "dark-grey": "#7c7c7c",
         "black-100": "#100d25",
         "black-200": "#090325",
         "white-100": "#f3f3f3",
@@ -19,8 +21,14 @@ module.exports = {
         xs: "450px",
       },
       backgroundImage: {
-        "hero-pattern": "url('/src/assets/herobg.png')",
+        "hero-pattern": "url('/src/assets/herobg.jpeg')",
       },
+      dropShadow:{
+        "header": '0 0px 8px #FFD1DA'
+      },
+      fontFamily:{
+        'serif':['"Playfair Display"']
+      }
     },
   },
   plugins: [],

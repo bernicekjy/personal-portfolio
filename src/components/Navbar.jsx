@@ -12,7 +12,7 @@ const Navbar = () => {
 
   return (
     <nav className={`${styles.paddingX} w-full flex items-center
-      py-5 fixed top-0 z-20 bg-primary`}>
+      py-5 fixed top-0 z-20 bg-secondary`}>
 
       {/* Brand (Left) */}
       <div className='w-full flex justify-between items-center max-w-7xl mx-auto'>
@@ -26,9 +26,9 @@ const Navbar = () => {
           <img src={logo} alt="logo" className="w-10 h-10 object-contain"/>
           {/* <p className='text-white text-[18px] font-bold cursor-pointer'>Bern <span className='sm:block hidden'>| Javascript</span></p>
          */}
-          <p className='text-white text-[18px] font-bold 
+          <p className='text-white text-[18px] font-medium 
           cursor-pointer flex'>Bernice&nbsp;<span
-          className='sm:block hidden'>Jun Yan</span></p>
+          className='sm:block hidden text-baby-pink'>Koh Jun Yan</span></p>
         </Link>
 
         {/* Navigation Menu */}
@@ -38,8 +38,8 @@ const Navbar = () => {
               key={link.id}
               className={`${
                 active === link.title
-                ? "text-white"
-                : "text-secondary"}
+                ? "text-primary"
+                : "text-baby-pink"}
                 hover:text-white text-[18px]
                 font-medium cursor-pointer`}
                 onClick={() => setActive(link.title)}>
