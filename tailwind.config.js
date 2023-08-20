@@ -9,6 +9,8 @@ module.exports = {
         secondary: "#FFD1DA", // light pink
         tertiary: "#FFDBAA", // yellow
         "baby-pink": "#FFF0F5", //light pink
+        "baby-purple": "#BA90C6",
+        "baby-blue":"#C0DBEA",
         "dark-grey": "#7c7c7c",
         "black-100": "#100d25",
         "black-200": "#090325",
