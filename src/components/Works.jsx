@@ -13,7 +13,7 @@ const ProjectCard = ({ index, name, description, tags, image, source_code_link})
         options={{
           max: 45,
           scale: 1,
-          speed: 450
+          speed: 560
         }}
         className="bg-tertiary p-5 rounded-2xl sm:w-[360px] w-full">
 
@@ -25,26 +25,29 @@ const ProjectCard = ({ index, name, description, tags, image, source_code_link})
             />
           </div>
 
-          {/* GitHub link */}
-          <div className = "absolute inset-0 flex justify-end m-3 card-img_hover">
-            <div
-            onClick={()=> window.open(source_code_link, "_blank")} //open page in new link
-            className="black-gradient w-10 h-10 rounded-full flex justify-center items-center
-            cursor-pointer"
-            >
-              <img
-                src={github}
-                alt="github"
-                className = "w-1/2 h-1/2 object-contain"
-                />
-            </div>
-          </div>
+
 
           <div className="mt-5">
-            <h3 className="text-white font-bold text-[24px]">
-            {name}
-            </h3>
-            <p className="mt-2 text-secondary">{description}</p>
+            <div className='flex flex-row'>
+              <h3 className="text-white font-bold text-[24px]">
+                {name}
+              </h3>
+              {/* GitHub link */}
+              <div className = "object-right mx-5 card-img_hover">
+                <div
+                onClick={()=> window.open(source_code_link, "_blank")} //open page in new link
+                className="black-gradient w-10 h-10 rounded-full flex justify-center items-center
+                cursor-pointer hover:drop-shadow-[0_0px_25px_rgba(0,0,0,0.6)]"
+                >
+                  <img
+                    src={github}
+                    alt="github"
+                    className = "w-1/2 h-1/2 object-contain"
+                    />
+                </div>
+              </div>
+            </div>
+            <p className="mt-2 text-baby-blue">{description}</p>
           </div>
 
           <div className="mt-4 flex flex-wrap gap-2">

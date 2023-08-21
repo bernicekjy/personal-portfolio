@@ -60,14 +60,6 @@ const About = () => {
         Singapore.</span> <span className='text-primary'>I love problem-solving and making life easier (and cooler!) with 
         technology.</span></p>
         <br/>
-        {/* <div className="mt-4 flex flex-wrap gap-2">
-            {tags.map((tag)=>(
-              <p key={tag.name}
-              className={`text-[14px] ${tag.color}`}>
-                #{tag.name}
-              </p>
-            ))}
-          </div> */}
         <div>
             <p className='mt-4 text-[25px] max-w-3xl leading-[30px]'>Connect with me!</p>
             <div className='flex flex-row mt-2'>

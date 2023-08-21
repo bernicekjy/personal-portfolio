@@ -20,11 +20,13 @@ const App = () => {
       <div className="bg-primary">
         <Experience/>
       </div>
-      
 
-      
-      <div className="bg-navy-blue relative z-0">
+      <div className="bg-[#87a3fa]">
         <Works/>
+      </div>
+      
+      <div className="relative z-0">
+        
         <Contact/>
         <StarsCanvas/>
       </div>
