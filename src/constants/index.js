@@ -2,7 +2,9 @@ import {
     mobile,
     backend,
     creator,
+    github,
     web,
+    linkedin,
     javascript,
     typescript,
     html,
@@ -23,23 +25,45 @@ import {
     jobit,
     tripguide,
     threejs,
+    githubblack,
+    bootstrap,
+    flask
   } from "../assets";
   
   export const navLinks = [
     {
       id: "about",
       title: "About",
-    },
+    },    
+
     {
       id: "work",
-      title: "Work",
+      title: "Experience",
+    },    
+    {
+      id: "projects",
+      title: "Projects"
     },
     {
       id: "contact",
       title: "Contact",
-    },
+    }
   ];
   
+  const socials = [
+    {
+      title: "github",
+      link: "https://github.com/bernicekjy",
+      icon: github,
+      color: "#000000"
+    },
+    {
+      title: "linkedin",
+      link: "https://www.linkedin.com/in/bernicekjy/",
+      icon: linkedin,
+      color: "#0072b1"
+    },
+  ]
   const services = [
     {
       title: "Web Developer",
@@ -73,20 +97,16 @@ import {
       icon: javascript,
     },
     {
-      name: "TypeScript",
-      icon: typescript,
-    },
-    {
       name: "React JS",
       icon: reactjs,
     },
     {
-      name: "Redux Toolkit",
-      icon: redux,
-    },
-    {
       name: "Tailwind CSS",
       icon: tailwind,
+    },
+    {
+      name: "BootStrap",
+      icon: bootstrap
     },
     {
       name: "Node JS",
@@ -97,21 +117,18 @@ import {
       icon: mongodb,
     },
     {
-      name: "Three JS",
-      icon: threejs,
+      name: "Flask",
+      icon: flask
     },
     {
       name: "git",
       icon: git,
     },
     {
-      name: "figma",
-      icon: figma,
+      name: "github",
+      icon: githubblack
     },
-    {
-      name: "docker",
-      icon: docker,
-    },
+
   ];
   
   const experiences = [
@@ -146,10 +163,9 @@ import {
       iconBg: "#fff7cc",
       date: "May 2023 - May 2023",
       points: [
-        "",
-        "Collaborating with cross-functional teams including designers, product managers, and other developers to create high-quality products.",
-        "Implementing responsive design and ensuring cross-browser compatibility.",
-        "Participating in code reviews and providing constructive feedback to other developers.",
+        "Collaborated with NTU Student Affairs Office to design a new Inclusion & Integration webpage.",
+        "Designed visually appealing, intuitive and user-friendly UI designs using Canva.",
+        "Conducted surveys to gain an understanding of general requirements from international students."
       ],
     }
   ];
@@ -247,4 +263,4 @@ import {
     },
   ];
   
-  export { services, technologies, experiences, testimonials, projects };
+  export { socials, services, technologies, experiences, testimonials, projects };

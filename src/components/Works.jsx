@@ -74,8 +74,8 @@ const Works = () => {
         className='mt-3 text-secondary text-[17px] max-w-3xl leading=[30px]'
         >
           Discover my creative journey through an array of diverse projects. From web apps to 
-          interactive creations, each project showcases my passion for innovation. Click on any 
-          project card to access its GitHub repository and explore its details.
+          interactive creations, each project showcases my passion for innovation. Feel free
+          to access its GitHub repository and explore its details.
         </motion.p>
       </div>
 
@@ -91,4 +91,4 @@ const Works = () => {
   )
 }
 
-export default SectionWrapper(Works, "")
+export default SectionWrapper(Works, "projects")

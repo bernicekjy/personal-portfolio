@@ -12,18 +12,22 @@ const App = () => {
           <Hero/>
         </div>
       </div>
-      <About/>
+      <div className="bg-[#FED5AB]">
+        <About/>      
+        <Tech/>
+      </div>
+      
       <div className="bg-primary">
         <Experience/>
       </div>
       
-      <Tech/>
-      <Works/>
-      <div className="relative z-0">
+
+      
+      <div className="bg-navy-blue relative z-0">
+        <Works/>
         <Contact/>
         <StarsCanvas/>
       </div>
-      
       <FooterSection/>
     </BrowserRouter>
   )
