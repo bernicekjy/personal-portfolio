@@ -8,7 +8,8 @@ module.exports = {
         primary: "#FBA1B7", //dark pink
         secondary: "#FFD1DA", // light pink
         tertiary: "#FFDBAA", // yellow
-        "baby-pink": "#FFF0F5", //light pink
+        "baby-pink": "#FFF0F5",
+        "navy-blue":"#051f6f",
         "dark-grey": "#7c7c7c",
         "black-100": "#100d25",
         "black-200": "#090325",
