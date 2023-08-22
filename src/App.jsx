@@ -21,7 +21,7 @@ const App = () => {
         <Experience/>
       </div>
 
-      <div className="bg-[#87a3fa]">
+      <div className="bg-[#87a3fa] z-0">
         <Works/>
       </div>
       
