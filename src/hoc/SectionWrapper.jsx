@@ -7,7 +7,7 @@ import { staggerContainer } from '../components/utils/motion';
 const SectionWrapper = (Component, idName) => 
     //Higher Order Components: a function returning a function
   function HOC(){
-    let boxVariants = {};
+    let initialOpacity = {};
     const isMobile = window.innerWidth < 768;
     if (isMobile){
         initialOpacity = {opacity: 1} // show all elements
