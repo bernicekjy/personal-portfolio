@@ -15,7 +15,7 @@ const ProjectCard = ({ index, name, description, tags, image, source_code_link})
           scale: 1,
           speed: 560
         }}
-        className="bg-tertiary p-5 rounded-2xl xs:w-[300px] sm:w-[360px] w-full">
+        className="bg-tertiary p-5 rounded-2xl sm:w-[360px] w-full">
 
           <div className='relative w-full h-[230px]'>
             <img
@@ -74,7 +74,7 @@ const Works = () => {
       <div className = "w-full flex">
         <motion.p
         variants={fadeIn("", "", 0.1, 1)}
-        className='mt-3 text-secondary text-[17px] max-w-3xl leading=[30px]'
+        className='mt-3 text-secondary text-[17px] max-w-3xl leading-[30px]'
         >
           Discover my creative journey through an array of diverse projects. From web apps to 
           interactive creations, each project showcases my passion for innovation. Feel free
