@@ -29,7 +29,7 @@ const ProjectCard = ({ index, name, description, tags, image, source_code_link})
 
           <div className="mt-5">
             <div className='flex flex-row'>
-              <h3 className="text-white font-bold text-[24px]">
+              <h3 className="text-[#fa87a3] text-[24px]">
                 {name}
               </h3>
               {/* GitHub link */}
@@ -47,7 +47,7 @@ const ProjectCard = ({ index, name, description, tags, image, source_code_link})
                 </div>
               </div>
             </div>
-            <p className="mt-2 text-baby-blue">{description}</p>
+            <p className="mt-2 text-[#7797f9]">{description}</p>
           </div>
 
           <div className="mt-4 flex flex-wrap gap-2">

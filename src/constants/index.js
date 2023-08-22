@@ -27,7 +27,13 @@ import {
     threejs,
     githubblack,
     bootstrap,
-    flask
+    flask,
+    ecoventure,
+    tindog,
+    moblima,
+    dsproject,
+    aiproject,
+    portfolio
   } from "../assets";
   
   export const navLinks = [
@@ -170,97 +176,110 @@ import {
     }
   ];
   
-  const testimonials = [
-    {
-      testimonial:
-        "I thought it was impossible to make a website as beautiful as our product, but Rick proved me wrong.",
-      name: "Sara Lee",
-      designation: "CFO",
-      company: "Acme Co",
-      image: "https://randomuser.me/api/portraits/women/4.jpg",
-    },
-    {
-      testimonial:
-        "I've never met a web developer who truly cares about their clients' success like Rick does.",
-      name: "Chris Brown",
-      designation: "COO",
-      company: "DEF Corp",
-      image: "https://randomuser.me/api/portraits/men/5.jpg",
-    },
-    {
-      testimonial:
-        "After Rick optimized our website, our traffic increased by 50%. We can't thank them enough!",
-      name: "Lisa Wang",
-      designation: "CTO",
-      company: "456 Enterprises",
-      image: "https://randomuser.me/api/portraits/women/6.jpg",
-    },
-  ];
-  
   const projects = [
     {
-      name: "Car Rent",
+      name: "EcoVenture",
       description:
-        "Web-based platform that allows users to search, book, and manage car rentals from various providers, providing a convenient and efficient solution for transportation needs.",
+        "An interactive web application catering to users in Singapore, enabling them to effortlessly explore outdoor Fitness Areas, discover optimal routes based on real-time distance and weather conditions, and earn points by visiting these destinations.",
       tags: [
         {
-          name: "react",
-          color: "blue-text-gradient",
-        },
-        {
-          name: "mongodb",
+          name: "html",
           color: "green-text-gradient",
         },
         {
-          name: "tailwind",
+          name: "bootstrapcss",
           color: "pink-text-gradient",
         },
+        {
+          name: "flask",
+          color: "blue-text-gradient",
+        },
       ],
-      image: carrent,
-      source_code_link: "https://github.com/",
+      image: ecoventure,
+      source_code_link: "https://github.com/claraheng/SC2006-EcoVenture-Web-App",
     },
     {
-      name: "Job IT",
+      name: "Personal Portfolio",
       description:
-        "Web application that enables users to search for job openings, view estimated salary ranges for positions, and locate available jobs based on their current location.",
+        "An interactive web application to showcase my past projects and work experience. You're looking at it right now!",
       tags: [
         {
-          name: "react",
-          color: "blue-text-gradient",
-        },
-        {
-          name: "restapi",
+          name: "html",
           color: "green-text-gradient",
         },
         {
-          name: "scss",
+          name: "react.js",
+          color: "blue-text-gradient",
+        },
+        {
+          name: "tailwindcss",
+          color: "green-text-gradient",
+        },
+        {
+          name: "three.js",
           color: "pink-text-gradient",
         },
       ],
-      image: jobit,
-      source_code_link: "https://github.com/",
+      image: portfolio,
+      source_code_link: "https://github.com/claraheng/SC2006-EcoVenture-Web-App",
     },
     {
-      name: "Trip Guide",
+      name: "TinDog",
       description:
-        "A comprehensive travel booking platform that allows users to book flights, hotels, and rental cars, and offers curated recommendations for popular destinations.",
+        "A promotional webpage for 'TinDog,' a fictional dating app tailored exclusively for dogs, fostering connections and playful interactions within the canine community.",
       tags: [
         {
-          name: "nextjs",
-          color: "blue-text-gradient",
-        },
-        {
-          name: "supabase",
+          name: "html",
           color: "green-text-gradient",
         },
         {
-          name: "css",
+          name: "bootstrap",
           color: "pink-text-gradient",
-        },
+        }
       ],
-      image: tripguide,
-      source_code_link: "https://github.com/",
+      image: tindog,
+      source_code_link: "https://github.com/bernicekjy/tindog-website",
     },
+    {
+      name: "MOBLIMA",
+      description:
+        "A console cinema manageent application to be used by both cinema staff and movie go-ers. Features include management of tickets, seating, movie and showtimes.",
+      tags: [
+        {
+          name: "java",
+          color: "pink-text-gradient",
+        }
+      ],
+      image: moblima,
+      source_code_link: "https://github.com/bernicekjy/SC2002-Assignment1",
+    },
+    {
+      name: "Cartpole with Deep Q Learning",
+      description:
+        "An artificial intelligence project using Deep Reinforcement Learning for Keras to solve the cartpole problem.",
+      tags: [
+        {
+          name: "python",
+          color: "blue-text-gradient",
+        }
+      ],
+      image: aiproject,
+      source_code_link: "https://github.com/bernicekjy/sc3000-cartpole",
+    },
+    {
+      name: "Does Being Unconventional Determine Success?",
+      description:
+        "A data science project exploring the relationship of career success based on the 'unconventionality' of individuals.",
+      tags: [
+        {
+          name: "python",
+          color: "blue-text-gradient",
+        }
+      ],
+      image: dsproject,
+      source_code_link: "https://github.com/ardnep/ntu-sc1015-mini-project",
+    },
+    
   ];
   
-  export { socials, services, technologies, experiences, testimonials, projects };
+  export { socials, services, technologies, experiences,projects };
