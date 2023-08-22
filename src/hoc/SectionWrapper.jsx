@@ -11,9 +11,9 @@ const SectionWrapper = (Component, idName) =>
     // attributes to apply to all sections
     <motion.section
         variants={staggerContainer()}
-        initial="hidden"
-        whileInView="show"
-        viewport={{once:true, amount:0.25}}
+        initial={{opacity: 0}}
+        whileInView={{opacity : 1}}
+        viewport={{ once:true, amount:0.25} }
         className={`${styles.padding} max-w-7xl mx-auto relative z-0`}
     >
         {/* idName represents section to scroll to */}
