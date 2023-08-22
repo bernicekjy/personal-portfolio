@@ -11,8 +11,8 @@ const Hero = () => {
         max-w-7xl mx-auto flex flex-row items-start gap-5`}>
 
         <div>
-          <h1 className={`${styles.heroHeadText} text-tertiary`}>Hello, 
-          I'm <span className='text-white font-serif text-[95px]'>Bernice</span>.</h1>
+          <h1 className={`${styles.heroHeadText} font-semibold text-tertiary`}>Hello, 
+          I'm <span className='text-white font-serif text-[90px]'>Bernice</span>.</h1>
 
           <p className={`${styles.heroSubText} text-white mt-2`}>An aspiring Software Engineer and Designer</p>
         </div>
