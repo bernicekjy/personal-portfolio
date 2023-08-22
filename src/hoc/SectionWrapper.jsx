@@ -22,7 +22,7 @@ const SectionWrapper = (Component, idName) =>
         variants={staggerContainer()}
         initial={initialOpacity}
         whileInView={{opacity : 1}}
-        viewport={{ once:true, amount:0.15} }
+        viewport={{ once:true, amount:0.20} }
         className={`${styles.padding} max-w-7xl mx-auto relative z-0`}
     >
         {/* idName represents section to scroll to */}
