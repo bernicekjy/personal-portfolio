@@ -7,18 +7,6 @@ import { staggerContainer } from '../components/utils/motion';
 const SectionWrapper = (Component, idName) => 
     //Higher Order Components: a function returning a function
   function HOC(){
-    // let boxVariants = {};
-    // const isMobile = window.innerWidth < 751;
-    // if (isMobile){
-    //     initialOpacity = {
-    //         opacity: 1
-    //     }
-    // }
-    // else{
-    //     initialOpacity = {
-    //         opacity: 0
-    //     }
-    // }
     return(
     // attributes to apply to all sections
     <motion.section
@@ -36,6 +24,5 @@ const SectionWrapper = (Component, idName) =>
     </motion.section>
     );
 }
-
 
 export default SectionWrapper
