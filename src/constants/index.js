@@ -16,6 +16,8 @@ import {
     mongodb,
     git,
     figma,
+    java,
+    python,
     docker,
     meta,
     ntu,
@@ -125,6 +127,14 @@ import {
     {
       name: "Flask",
       icon: flask
+    },
+    {
+      name:"Python",
+      icon: python
+    },
+    {
+      name:"Java",
+      icon: java
     },
     {
       name: "git",

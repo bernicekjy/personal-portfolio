@@ -24,7 +24,9 @@ import tailwind from "./tech/tailwind.png";
 import typescript from "./tech/typescript.png";
 import threejs from "./tech/threejs.svg";
 import bootstrap from "./tech/bootstrap.png";
-import flask from "./tech/flask.png"
+import flask from "./tech/flask.png";
+import java from "./tech/java.png";
+import python from "./tech/python.png"
 
 import meta from "./company/meta.png";
 import shopify from "./company/shopify.png";
@@ -70,6 +72,8 @@ export {
   tailwind,
   typescript,
   threejs,
+  java,
+  python,
   meta,
   shopify,
   ntu,
