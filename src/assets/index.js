@@ -22,7 +22,6 @@ import reactjs from "./tech/reactjs.png";
 import redux from "./tech/redux.png";
 import tailwind from "./tech/tailwind.png";
 import typescript from "./tech/typescript.png";
-import threejs from "./tech/threejs.svg";
 import bootstrap from "./tech/bootstrap.png";
 import flask from "./tech/flask.png";
 import java from "./tech/java.png";
@@ -35,9 +34,6 @@ import ntu from "./company/ntu.png"
 import micron from "./company/micron.png"
 import tesla from "./company/tesla.png";
 
-import carrent from "./carrent.png";
-import jobit from "./jobit.png";
-import tripguide from "./tripguide.png";
 import ecoventure from "./ecoventure.png";
 import tindog from "./tindog.png"
 import moblima from "./moblima.png";
@@ -71,16 +67,12 @@ export {
   redux,
   tailwind,
   typescript,
-  threejs,
   java,
   python,
   meta,
   shopify,
   ntu,
   micron,
-  carrent,
-  jobit,
-  tripguide,
   ecoventure,
   tindog,
   moblima,
