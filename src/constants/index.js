@@ -26,10 +26,9 @@ import {
   typescript,
   java,
   python,
-  meta,
-  shopify,
   ntu,
   micron,
+  rakuten,
   ecoventure,
   tindog,
   moblima,
@@ -37,6 +36,7 @@ import {
   aiproject,
   portfolio
 } from "../assets";
+
   
   export const navLinks = [
     {
@@ -72,24 +72,6 @@ import {
       color: "#0072b1"
     },
   ]
-  const services = [
-    {
-      title: "Web Developer",
-      icon: web,
-    },
-    {
-      title: "React Native Developer",
-      icon: mobile,
-    },
-    {
-      title: "Backend Developer",
-      icon: backend,
-    },
-    {
-      title: "Content Creator",
-      icon: creator,
-    },
-  ];
   
   const technologies = [
     {
@@ -161,7 +143,7 @@ import {
       ],
     },
     {
-      title: "Intern",
+      title: "Quality Engineering Management Intern",
       company_name: "Micron",
       icon: micron,
       iconBg: "#b4d5ff",
@@ -182,6 +164,17 @@ import {
         "Collaborated with NTU Student Affairs Office to design a new Inclusion & Integration webpage.",
         "Designed visually appealing, intuitive and user-friendly UI designs using Canva.",
         "Conducted surveys to gain an understanding of general requirements from international students."
+      ],
+    },
+    {
+      title: "Software Engineering Intern",
+      company_name: "Rakuten Asia",
+      icon: rakuten,
+      iconBg: "#f7c8c9",
+      date: "Sept 2023 - Dec 2023",
+      points: [
+        "Developed the front-end of enterprise-facing applications using ReactJS and TypeScript.",
+        "Collaborated with fellow software engineers to comphrehend business requirements for application UI designs.",
       ],
     }
   ];
@@ -292,4 +285,4 @@ import {
     
   ];
   
-  export { socials, services, technologies, experiences,projects };
+  export { socials, technologies, experiences,projects };

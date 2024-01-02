@@ -27,12 +27,9 @@ import flask from "./tech/flask.png";
 import java from "./tech/java.png";
 import python from "./tech/python.png"
 
-import meta from "./company/meta.png";
-import shopify from "./company/shopify.png";
-import starbucks from "./company/starbucks.png";
 import ntu from "./company/ntu.png"
 import micron from "./company/micron.png"
-import tesla from "./company/tesla.png";
+import rakuten from "./company/rakuten.png"
 
 import ecoventure from "./ecoventure.png";
 import tindog from "./tindog.png"
@@ -69,10 +66,9 @@ export {
   typescript,
   java,
   python,
-  meta,
-  shopify,
   ntu,
   micron,
+  rakuten,
   ecoventure,
   tindog,
   moblima,
@@ -80,3 +76,4 @@ export {
   aiproject,
   portfolio
 };
+
