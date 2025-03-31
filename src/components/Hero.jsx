@@ -2,7 +2,6 @@ import React from 'react'
 
 import {motion} from 'framer-motion';
 import {styles} from '../styles';
-import { ComputersCanvas } from './canvas';
 
 const Hero = () => {
   return (
@@ -12,7 +11,7 @@ const Hero = () => {
 
         <div>
           <h1 className={`${styles.heroHeadText} font-semibold text-tertiary`}>Hello, 
-          I'm <span className='text-white font-serif'>Bernice</span>.</h1>
+          I'm <span className=' text-white font-display'>Bernice</span>.</h1>
 
           <p className={`${styles.heroSubText} text-white mt-2`}>An aspiring Software Engineer and Designer</p>
         </div>

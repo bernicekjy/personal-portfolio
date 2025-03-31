@@ -25,7 +25,7 @@ const About = () => {
         <motion.div
         variants={fadeIn("", "", 0.1, 1)}
         >
-        <p className='mt-4 text-[25px] max-w-3xl leading-[30px]'><span className='text-baby-blue'>I am a 3rd Year Penultimate Computer Science student in Nanyang Technological University, 
+        <p className='mt-4 text-[25px] max-w-3xl leading-[30px]'><span className='text-baby-blue'>I am a Final Year Computer Science student in Nanyang Technological University, 
         Singapore.</span> <span className='text-primary'>I love problem-solving and making life easier (and cooler!) with 
         technology.</span></p>
         <br/>

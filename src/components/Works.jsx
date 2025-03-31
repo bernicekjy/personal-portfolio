@@ -8,15 +8,15 @@ import { fadeIn, textVariant } from './utils/motion';
 
 const ProjectCard = ({ index, name, description, tags, image, source_code_link}) => {
   return(
-    <motion.div variants={fadeIn("up", "spring", index*0.5)}>
-      <Tilt
-        options={{
-          max: 45,
-          scale: 1,
-          speed: 560
-        }}
-        className="bg-tertiary p-5 rounded-2xl sm:w-[360px] w-full">
-
+    // <motion.div variants={fadeIn("up", "spring", index*0.5)}>
+    //   <Tilt
+    //     options={{
+    //       max: 45,
+    //       scale: 1,
+    //       speed: 560
+    //     }}
+    //     className="bg-tertiary p-5 rounded-2xl sm:w-[360px] w-full">
+<div className="bg-tertiary p-5 rounded-2xl sm:w-[360px] w-full hover:bg-light-yellow">
           <div className='relative w-full h-[230px]'>
             <img
             src={image}
@@ -24,7 +24,6 @@ const ProjectCard = ({ index, name, description, tags, image, source_code_link})
             className='w-full h-full object-cover rounded-2xl'
             />
           </div>
-
 
 
           <div className="mt-5">
@@ -58,8 +57,9 @@ const ProjectCard = ({ index, name, description, tags, image, source_code_link})
               </p>
             ))}
           </div>
-        </Tilt>
-    </motion.div>
+    {/* //     </Tilt>
+    // </motion.div> */}
+    </div>
   )
 }
 

@@ -11,6 +11,7 @@ module.exports = {
         "baby-pink": "#FFF0F5",
         "baby-blue": "#a1b7fb",
         "baby-purple": "#b8a1fb",
+        "light-yellow":"#ffedd5",
         "navy-blue":"#051f6f",
         "dark-grey": "#7c7c7c",
         "black-100": "#100d25",
@@ -30,7 +31,8 @@ module.exports = {
         "header": '0 0px 8px #FFD1DA'
       },
       fontFamily:{
-        'serif':['"Playfair Display"']
+        'serif':['"Playfair Display"'],
+        'display':['"Vibur"'],
       }
     },
   },
